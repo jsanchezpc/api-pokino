@@ -3,7 +3,7 @@ const jwt = require("jsonwebtoken");
 const app = express();
 
 app.post("/entrar", (req, res) => {
-  console.log("Nuevo jugador entrando");
+  console.log("Jugador entrando");
   console.log(req.body);
   let body = req.body;
 
